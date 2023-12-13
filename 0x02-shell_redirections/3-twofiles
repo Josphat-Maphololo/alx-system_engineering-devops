@@ -1,5 +1,4 @@
 #!/bin/bash
-
 # Read and print the content of /etc/passwd file
 echo "##"
 echo "# User Database"
@@ -24,6 +23,3 @@ echo "# localhost is used to configure the loopback interface"
 echo "# when the system is booting. Do not change this entry."
 echo "##"
 cat /etc/hosts
-```
-
-This script uses the `cat` command to read the content of the `/etc/passwd` and `/etc/hosts` files and the `echo` command to print additional comments.
