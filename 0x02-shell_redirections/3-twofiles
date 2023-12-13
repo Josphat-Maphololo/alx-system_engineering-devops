@@ -1,25 +1,3 @@
 #!/bin/bash
-# Read and print the content of /etc/passwd file
-echo "##"
-echo "# User Database"
-echo "#"
-echo "# Note that this file is consulted directly only when the system is running"
-echo "# in single-user mode. At other times this information is provided by"
-echo "# Open Directory."
-echo "#"
-echo "# See the opendirectoryd(8) man page for additional information about"
-echo "# Open Directory."
-echo "##"
 cat /etc/passwd
-
-# Print a blank line
-echo ""
-
-# Read and print the content of /etc/hosts file
-echo "##"
-echo "# Host Database"
-echo "#"
-echo "# localhost is used to configure the loopback interface"
-echo "# when the system is booting. Do not change this entry."
-echo "##"
 cat /etc/hosts
