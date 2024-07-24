@@ -1,0 +1,1 @@
+onfigure ufw firewall
